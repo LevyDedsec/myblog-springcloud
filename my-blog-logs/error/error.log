@@ -17,3 +17,22 @@ Action:
 
 Update your application's configuration
 
+2020-10-10 13:29:56,192 [main] ERROR [org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'spring.servlet.multipart.max-file-size' to org.springframework.util.unit.DataSize:
+
+    Property: spring.servlet.multipart.max-file-size
+    Value: 10Mb
+    Origin: class path resource [application.properties]:51:40
+    Reason: failed to convert java.lang.String to org.springframework.util.unit.DataSize
+
+Action:
+
+Update your application's configuration
+
