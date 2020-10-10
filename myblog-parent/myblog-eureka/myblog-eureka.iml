@@ -17,11 +17,11 @@
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
     <output url="file://$MODULE_DIR$/target/classes" />
     <output-test url="file://$MODULE_DIR$/target/test-classes" />
-    <content url="file://$MODULE_DIR$/../MyBlog-Parent/Myblog-Eureka">
-      <sourceFolder url="file://$MODULE_DIR$/../MyBlog-Parent/Myblog-Eureka/src/main/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../MyBlog-Parent/Myblog-Eureka/src/main/resources" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/../MyBlog-Parent/Myblog-Eureka/src/test/java" isTestSource="true" />
-      <excludeFolder url="file://$MODULE_DIR$/../MyBlog-Parent/Myblog-Eureka/target" />
+    <content url="file://$MODULE_DIR$/../myblog-parent/myblog-eureka">
+      <sourceFolder url="file://$MODULE_DIR$/../myblog-parent/myblog-eureka/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../myblog-parent/myblog-eureka/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../myblog-parent/myblog-eureka/src/test/java" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../myblog-parent/myblog-eureka/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

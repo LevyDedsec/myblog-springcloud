@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/MyBlog-Parent/MyBlog-Common/MyBlog-Common.iml" filepath="$PROJECT_DIR$/MyBlog-Parent/MyBlog-Common/MyBlog-Common.iml" />
-      <module fileurl="file://$PROJECT_DIR$/MyBlog-Parent/Myblog-Eureka/MyBlog-Eureka.iml" filepath="$PROJECT_DIR$/MyBlog-Parent/Myblog-Eureka/MyBlog-Eureka.iml" />
-      <module fileurl="file://$PROJECT_DIR$/MyBlog-Parent/MyBlog-Parent.iml" filepath="$PROJECT_DIR$/MyBlog-Parent/MyBlog-Parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/blog.iml" filepath="$PROJECT_DIR$/.idea/blog.iml" />
-      <module fileurl="file://$PROJECT_DIR$/MyBlog-Parent/MyBlog/myblog.iml" filepath="$PROJECT_DIR$/MyBlog-Parent/MyBlog/myblog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myblog-parent/MyBlog/myblog.iml" filepath="$PROJECT_DIR$/myblog-parent/MyBlog/myblog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myblog-parent/myblog-common/myblog-common.iml" filepath="$PROJECT_DIR$/myblog-parent/myblog-common/myblog-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myblog-parent/myblog-eureka/myblog-eureka.iml" filepath="$PROJECT_DIR$/myblog-parent/myblog-eureka/myblog-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myblog-parent/myblog-parent.iml" filepath="$PROJECT_DIR$/myblog-parent/myblog-parent.iml" />
     </modules>
   </component>
 </project>

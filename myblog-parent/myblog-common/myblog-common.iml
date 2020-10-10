@@ -3,10 +3,10 @@
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_5">
     <output url="file://$MODULE_DIR$/target/classes" />
     <output-test url="file://$MODULE_DIR$/target/test-classes" />
-    <content url="file://$MODULE_DIR$/../MyBlog-Parent/MyBlog-Common">
-      <sourceFolder url="file://$MODULE_DIR$/../MyBlog-Parent/MyBlog-Common/src/main/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../MyBlog-Parent/MyBlog-Common/src/main/resources" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/../MyBlog-Parent/MyBlog-Common/src/test/java" isTestSource="true" />
+    <content url="file://$MODULE_DIR$/../myblog-parent/myblog-common">
+      <sourceFolder url="file://$MODULE_DIR$/../myblog-parent/myblog-common/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../myblog-parent/myblog-common/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../myblog-parent/myblog-common/src/test/java" isTestSource="true" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

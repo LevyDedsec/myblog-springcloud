@@ -6,24 +6,24 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="MyBlog-Parent" />
-        <module name="MyBlog-Eureka" />
-        <module name="MyBlog-Common" />
+        <module name="myblog-parent" />
+        <module name="myblog-common" />
+        <module name="myblog-eureka" />
         <module name="myblog" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="myblog" target="1.8" />
-      <module name="MyBlog-Common" target="1.5" />
-      <module name="MyBlog-Eureka" target="1.8" />
-      <module name="MyBlog-Parent" target="1.8" />
+      <module name="myblog-common" target="1.5" />
+      <module name="myblog-eureka" target="1.8" />
+      <module name="myblog-parent" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="MyBlog-Eureka" options="-parameters" />
-      <module name="MyBlog-Parent" options="-parameters" />
       <module name="myblog" options="-parameters" />
+      <module name="myblog-eureka" options="-parameters" />
+      <module name="myblog-parent" options="-parameters" />
     </option>
   </component>
 </project>
