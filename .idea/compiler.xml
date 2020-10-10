@@ -6,16 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="myblog-parent" />
+        <module name="myblog" />
         <module name="myblog-common" />
         <module name="myblog-eureka" />
-        <module name="myblog" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="myblog" target="1.8" />
       <module name="myblog-common" target="1.5" />
-      <module name="myblog-eureka" target="1.8" />
+      <module name="myblog-eureka" target="1.5" />
       <module name="myblog-parent" target="1.8" />
     </bytecodeTargetLevel>
   </component>
