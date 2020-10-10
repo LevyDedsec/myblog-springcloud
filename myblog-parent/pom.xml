@@ -18,6 +18,7 @@
         <module>myblog-common</module>
         <module>myblog-eureka</module>
         <module>myblog</module>
+        <module>myblog-file-service</module>
 
 
     </modules>
