@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/myblog-parent/myblog/myblog.iml" filepath="$PROJECT_DIR$/myblog-parent/myblog/myblog.iml" />
       <module fileurl="file://$PROJECT_DIR$/myblog-parent/myblog-common/myblog-common.iml" filepath="$PROJECT_DIR$/myblog-parent/myblog-common/myblog-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/myblog-parent/myblog-eureka/myblog-eureka.iml" filepath="$PROJECT_DIR$/myblog-parent/myblog-eureka/myblog-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myblog-parent/myblog-file-service/myblog-file-service.iml" filepath="$PROJECT_DIR$/myblog-parent/myblog-file-service/myblog-file-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/myblog-parent/myblog-parent.iml" filepath="$PROJECT_DIR$/myblog-parent/myblog-parent.iml" />
     </modules>
   </component>
