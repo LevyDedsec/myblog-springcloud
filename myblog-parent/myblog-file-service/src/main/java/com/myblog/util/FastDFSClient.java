@@ -26,24 +26,37 @@ public class FastDFSClient {
         }
     }
 
-    //图片上传
-    public static String[] upload(FastDFSFile file) {
+    /****
+     * 文件上传
+     * @param file : 要上传的文件信息封装->FastDFSFile
+     * @return String[]
+     *          1:文件上传所存储的组名
+     *          2:文件存储路径
+     */
+    public static String[] upload(FastDFSFile file){
+        //获取文件作者
+        NameValuePair[] meta_list = new NameValuePair[1];
+        meta_list[0] =new NameValuePair(file.getAuthor());
+
+        /***
+         * 文件上传后的返回值
+         * uploadResults[0]:文件上传所存储的组名，例如:group1
+         * uploadResults[1]:文件存储路径,例如：M00/00/00/wKjThF0DBzaAP23MAAXz2mMp9oM26.jpeg
+         */
+        String[] uploadResults = null;
         try {
+            //创建TrackerClient客户端对象
             TrackerClient trackerClient = new TrackerClient();
+            //通过TrackerClient对象获取TrackerServer信息
             TrackerServer trackerServer = trackerClient.getConnection();
+            //获取StorageClient对象
             StorageClient storageClient = new StorageClient(trackerServer, null);
-            //参数1 字节数组
-            //参数2 扩展名(不带点)
-            //参数3 元数据( 文件的大小,文件的作者,文件的创建时间戳)
-            NameValuePair[] meta_list = new NameValuePair[]{new NameValuePair(file.getAuthor()), new NameValuePair(file.getName())};
-
-            String[] strings = storageClient.upload_file(file.getContent(), file.getExt(), meta_list);
-
-            return strings;// strings[0]==group1  strings[1]=M00/00/00/wKjThF1aW9CAOUJGAAClQrJOYvs424.jpg
+            //执行文件上传
+            uploadResults = storageClient.upload_file(file.getContent(), file.getExt(), meta_list);
         } catch (Exception e) {
             e.printStackTrace();
         }
-        return null;
+        return uploadResults;
     }
 
 
